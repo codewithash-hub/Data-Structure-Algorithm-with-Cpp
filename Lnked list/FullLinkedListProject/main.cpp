@@ -106,17 +106,20 @@ int main()
     insertNode();
     printList();
     cout << "\n";
+
     reservedList();
     printList();
     cout << "\n";
+
     deleteNode();
     printList();
     cout << "\n";
+
     int num;
     cout << "Enter a node to be deleted: ";
     cin >> num;
-
     deleteNodeAtPosition(reservedList(), num);
     printList();
+
     return 0;
 }
